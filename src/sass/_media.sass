@@ -2,3 +2,35 @@
     .header
         &__official
             display: none
+    .promo
+        &__wrapper
+            text-align: center
+@media (max-width: 991px)
+    .promo
+        &__wrapper
+            align-items: center
+    .benefits
+        &__block
+            flex-direction: column
+        &__item
+            max-width: 528px
+            margin-right: 0
+            padding: 20px 0 20px 0
+        .icon
+            width: 140px
+            height: 140px
+        &__text
+            font-size: 22px
+        .head
+            font-size: 26px
+@media (max-width: 575px)
+    .promo
+        &__icons
+            display: none
+    .header
+        &__phone
+            font-size: 13px
+        &__contacts
+            .button
+                width: 120px
+                font-size: 10px
