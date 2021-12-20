@@ -17,3 +17,26 @@
     .slick-next
         right: -66px
         left: auto
+    .slick-dots
+        padding: 0
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        margin: 0 auto
+        li
+            display: inline-block
+            margin-top: 20px
+            button
+                display: block
+                width: 30px
+                height: 30px
+                margin: 0 10px
+                border: solid 2px $main-color
+                border-radius: 100%
+                &:before
+                    content: ''
+                    width: 5px
+                    height: 5px
+                    background-color: $main-color
+                    
+            
